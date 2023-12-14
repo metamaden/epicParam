@@ -1,0 +1,24 @@
+Package: epicParam
+Version: 1.0.0
+Title: Object class definition and methods for EPIC, a type of deconvolution algorithm.
+Authors@R: c(person(c("Sean", "K"), "Maden", role = c("cre", "aut"), 
+    email = "maden.sean@gmail.com", comment = c(ORCID = "0000-0002-2212-4894")))
+Description: Object class definition and methods for EPIC, a type of deconvolution algorithm.
+License: Artistic-2.0
+Encoding: UTF-8
+URL: https://github.com/metamaden/epicParam
+BugReports: https://github.com/metamaden/epicParam/issues
+LazyData: FALSE
+Depends:
+    R (>= 4.3.0),
+    stats,
+    methods,
+    utils,
+    SummarizedExperiment,
+    SingleCellExperiment,
+    BiocGenerics,
+    lute,
+    S4Vectors,
+    GenomicRanges,
+    EPIC
+RoxygenNote: 7.2.3
