@@ -1,4 +1,4 @@
-# musicParam
+# epicParam
 
 `lute` param class, method, and generic definitions for the EPIC deconvolution algorithm. See `?epicParam-class` for more information.
 
